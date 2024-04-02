@@ -1,0 +1,77 @@
+/* 
+
+SceneSprout Orange
+fc7900
+
+SceneSprout Gray
+4c4c4c
+
+SceneSprout Blue
+3bacd5
+
+*/
+
+.gradient-background{
+    background: linear-gradient(300deg, #4c4c4c, #3bacd5, #fc7900);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+@font-face {
+    font-family: custom_Chewy;
+    src: url('./media/page_elements/Chewy.ttf') format('trueType');
+}
+
+.profile_border{
+   border: solid black 2px;
+   border-color: #3bacd5;
+   border-radius: 50%;
+}
+
+.hero_style{
+    color: whitesmoke;
+    background-color: #4c4c4c;
+    border-bottom: solid #3bacd5 3px;
+    border-top: solid #3bacd5 3px;
+}
+
+.custom_Font_P p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.custom_Font h1{
+    font-family: custom_Chewy;
+}
+
+.custom_Font h2{
+    font-family: custom_Chewy;
+}
+
+.video_center{
+  display: block;
+  margin: auto;
+}
+
+.photo_sizing{
+  width: 300px;
+  display: block;
+  margin: auto;
+}
+
+.scenesprout_style{
+  border-bottom: solid #3bacd5 3px;
+}
+
+
